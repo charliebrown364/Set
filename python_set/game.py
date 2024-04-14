@@ -11,7 +11,7 @@ class Set:
         self.score = 0
 
     def run(self, *, enable_hints: bool = False) -> None:
-        """Runs a full game of Set!. Takes in a boolean enable_hints, which
+        """Runs a full game of Set. Takes in a boolean enable_hints, which
         determines if hints are given to the user."""
 
         # Prints game info
@@ -48,7 +48,7 @@ class Set:
                     self.print_sets()
 
         # Ends the game
-        print("\nYou win! Thanks for playing.")
+        print("\nYou win! Thanks for playing Set!")
 
     def initialize_deck(self) -> None:
         """Initializes the deck w/ all possible cards."""
@@ -115,7 +115,7 @@ class Set:
 
     def print_sets(self) -> None:
         """Prints each combination of cards that form a set."""
-        print("\nHint: these cards form a set!")
+        print("\nHint: these cards form a set:")
         for guess in combinations(self.board, 3):
             card_1, card_2, card_3 = guess
             if card_1 != card_2 and card_1 != card_3 and card_2 != card_3:
