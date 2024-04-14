@@ -1,0 +1,6 @@
+python_set/__pycache__
+client/
+node_modules/
+src/
+package-lock.json
+package.json
