@@ -25,3 +25,5 @@ class Card:
                self.opacity == other.opacity and \
                self.color == other.color and \
                self.shape == other.shape
+
+# test
