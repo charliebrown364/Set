@@ -1,2 +1,1 @@
-# Set
-Programming the card game Set. So far, I only have it in python, played through the terminal. Website + multiplayer versions coming soon!
+The goal of was the create the card game Set!. I did so in python in the terminal, but never did it in JavaScript or more. Maybe one day I'll come back to this, but until then, this repo will be archived.
